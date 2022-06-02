@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.sfg-product-works</groupId>
+        <artifactId>sfg-factory-bom</artifactId>
+        <version>1.0.17</version>
+    </parent>
+
+    <groupId>liveflow.springframework</groupId>
+    <artifactId>mssc-product-inventory-service</artifactId>
+
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>mssc-product-inventory-service</name>
+
+    <description>MSSC Product Inventory Service</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+    </dependencies>
+</project>
